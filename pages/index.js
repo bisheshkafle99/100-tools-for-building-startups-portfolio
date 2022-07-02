@@ -1,3 +1,9 @@
+import Hero from "../components/Hero";
+
 export default function Home() {
-  return <>100+ Tools for building startups</>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
