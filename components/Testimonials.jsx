@@ -55,7 +55,7 @@ const Testimonials = () => {
                 color: "gray.400",
               }}
             >
-              Saving over 1000's of hours and money of startup founders
+              Saving over 1000s of hours and money of startup founders
             </chakra.p>
           </Box>
           <Box bgGradient={`linear(to-b, ${topBg} 50%, ${bottomBg} 50%)`}>
