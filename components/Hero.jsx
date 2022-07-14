@@ -43,11 +43,11 @@ export default function Hero() {
                 zIndex: -1,
               }}
             >
-              Write once,
+              100+ Tools
             </Text>
             <br />
             <Text as={"span"} color={"red.400"}>
-              use everywhere!
+              for startups!
             </Text>
           </Heading>
           <Text color={"gray.500"}>
@@ -68,7 +68,7 @@ export default function Hero() {
               bg={"red.400"}
               _hover={{ bg: "red.500" }}
             >
-              Get started
+              Buy
             </Button>
             <Button
               rounded={"full"}
@@ -77,7 +77,7 @@ export default function Hero() {
               px={6}
               leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
             >
-              How It Works
+              Learn More
             </Button>
           </Stack>
         </Stack>
