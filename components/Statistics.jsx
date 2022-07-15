@@ -6,10 +6,8 @@ import {
   Stat,
   StatLabel,
   StatNumber,
-  useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 
 function StatsCard({ title, stat }) {
   //     function StatsCard(props) {
@@ -31,12 +29,6 @@ function StatsCard({ title, stat }) {
 }
 
 export default function BasicStatistics() {
-  const { colorMode, toggleColorMode } = useColorMode();
-
-  useEffect(() => {
-    if (colorMode == "dark") toggleColorMode();
-  }, []);
-
   const topBg = useColorModeValue("purple.300", "gray.700");
   const bottomBg = useColorModeValue("purple.400", "gray.800");
   return (
