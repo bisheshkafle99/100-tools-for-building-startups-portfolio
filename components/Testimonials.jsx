@@ -7,16 +7,24 @@ import {
   Stack,
   Text,
   useColorModeValue,
+  useColorMode,
   Image,
   Badge,
   HStack,
   SimpleGrid,
 } from "@chakra-ui/react";
+import { useEffect } from "react";
 import testimonial1 from "../public/100+.png";
 import testimonial2 from "../public/100+.png";
 import testimonial3 from "../public/100+.png";
 
 const Testimonials = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+
+  useEffect(() => {
+    if (colorMode == "dark") toggleColorMode();
+  }, []);
+
   const topBg = useColorModeValue("purple.300", "gray.700");
   const bottomBg = useColorModeValue("purple.400", "gray.800");
 
@@ -55,7 +63,7 @@ const Testimonials = () => {
                 color: "gray.400",
               }}
             >
-              Saving over 1000s of hours and money of startup founders
+              Saving over 1000&apos;s of hours and money of startup founders
             </chakra.p>
           </Box>
           <Box bgGradient={`linear(to-b, ${topBg} 50%, ${bottomBg} 50%)`}>

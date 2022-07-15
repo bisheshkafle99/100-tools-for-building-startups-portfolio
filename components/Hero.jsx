@@ -11,10 +11,18 @@ import {
   IconButton,
   createIcon,
   IconProps,
+  useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { useEffect } from "react";
 
 export default function Hero() {
+  const { colorMode, toggleColorMode } = useColorMode();
+
+  useEffect(() => {
+    if (colorMode == "dark") toggleColorMode();
+  }, []);
+
   return (
     <Container maxW={"7xl"}>
       <Stack
