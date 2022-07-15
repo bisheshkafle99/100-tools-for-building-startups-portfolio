@@ -124,7 +124,7 @@ export default function Hero() {
               align={"center"}
               w={"100%"}
               h={"100%"}
-              src={"./100+.png"}
+              src={"./100.png"}
             />
           </Box>
         </Flex>

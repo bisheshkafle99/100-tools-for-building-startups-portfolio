@@ -12,10 +12,9 @@ import {
   HStack,
   SimpleGrid,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
-import testimonial1 from "../public/100+.png";
-import testimonial2 from "../public/100+.png";
-import testimonial3 from "../public/100+.png";
+import testimonial1 from "../public/100.png";
+import testimonial2 from "../public/100.png";
+import testimonial3 from "../public/100.png";
 
 const Testimonials = () => {
   const topBg = useColorModeValue("purple.300", "gray.700");
