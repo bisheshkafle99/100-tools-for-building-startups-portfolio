@@ -3,6 +3,7 @@ import Statistics from "../components/Statistics";
 import Testimonials from "../components/Testimonials";
 import { useColorMode } from "@chakra-ui/react";
 import { useEffect } from "react";
+import Features from "../components/Features";
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Features />
       <Statistics />
       <Testimonials />
     </>

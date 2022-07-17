@@ -53,7 +53,6 @@ export default function BasicStatistics() {
         w="full"
         bg={topBg}
         id="statistics"
-        mt={"30px"}
       >
         <Box
           maxW="7xl"
