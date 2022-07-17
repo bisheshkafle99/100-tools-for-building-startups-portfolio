@@ -29,8 +29,8 @@ function StatsCard({ title, stat }) {
 }
 
 export default function BasicStatistics() {
-  const topBg = useColorModeValue("purple.300", "gray.700");
-  const bottomBg = useColorModeValue("purple.400", "gray.800");
+  const topBg = useColorModeValue("purple.200", "gray.700");
+  const bottomBg = useColorModeValue("purple.300", "gray.800");
   return (
     <Flex
       boxSize="full"

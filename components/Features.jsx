@@ -11,8 +11,8 @@ import {
 } from "@chakra-ui/react";
 
 const Features = () => {
-  const topBg = useColorModeValue("purple.300", "gray.700");
-  const bottomBg = useColorModeValue("purple.400", "gray.800");
+  const topBg = useColorModeValue("purple.200", "gray.700");
+  const bottomBg = useColorModeValue("purple.300", "gray.800");
   return (
     <Flex
       boxSize="full"
@@ -64,10 +64,11 @@ const Features = () => {
             m={"auto"}
           >
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -79,10 +80,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -94,10 +96,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -109,10 +112,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -124,10 +128,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -139,10 +144,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -154,10 +160,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -169,10 +176,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -184,10 +192,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}
@@ -199,10 +208,11 @@ const Features = () => {
               </chakra.h3>
             </Box>
             <Box
-              bg="gray.900"
-              border="1px solid white"
+              bg="purple.400"
+              border="1px solid"
               borderRadius="3px"
               maxH="80px"
+              _dark={{ bg: "gray.900" }}
             >
               <chakra.h3
                 textAlign={"center"}

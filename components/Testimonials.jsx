@@ -17,8 +17,8 @@ import testimonial2 from "../public/100.png";
 import testimonial3 from "../public/100.png";
 
 const Testimonials = () => {
-  const topBg = useColorModeValue("purple.300", "gray.700");
-  const bottomBg = useColorModeValue("purple.400", "gray.800");
+  const topBg = useColorModeValue("purple.200", "gray.700");
+  const bottomBg = useColorModeValue("purple.300", "gray.800");
 
   return (
     <Flex
